@@ -16,7 +16,7 @@ function App() {
   const removeValue = () => {
     if (counter > 0) {
       counter = counter - 1;
-      setCounter(counter);
+      setCounter(counter); 
     } else {
       alert("min value is 0");
     }
