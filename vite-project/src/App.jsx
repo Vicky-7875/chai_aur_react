@@ -1,12 +1,11 @@
 import Chai from "./chai";
 function App() {
-  {
-    /* <h1>Chai aur React With Vite | vivek tondare</h1>   */
-  }
+
+  const username='vivek tondare is here'
   return (
     <>
       <Chai />
-      <h1>Chai aur React</h1>
+      <h1>Chai aur React {username}</h1>
       <p>Lorem ipsum dolor sit amet.</p>
     </>
   );
