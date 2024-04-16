@@ -32,7 +32,7 @@ const ReactElement = React.createElement(
     target: "_blank",
   },
   "click me to visit google",
-  " vivek is "
+  " vive is "
 );
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
