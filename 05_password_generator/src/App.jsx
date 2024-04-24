@@ -26,9 +26,9 @@ function App() {
 
   const copyPassToClip = useCallback(() => {
     passwordRef.current?.select();
-   passwordRef.current?.setSelectionRange(0, 9);
+    passwordRef.current?.setSelectionRange(0, 9);
     console.log(passwordRef);
-    window.navigator.clipboard.writeText(selPass);
+    window.navigator.clipboard.writeText(password);
   }, [password]);
 
   useEffect(() => {
